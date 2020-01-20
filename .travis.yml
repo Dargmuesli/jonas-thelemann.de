@@ -38,3 +38,6 @@ deploy:
   on:
     tags: true
     repo: dargmuesli/jonas-thelemann
+notifications:
+  email:
+    on_failure: change # default: always
