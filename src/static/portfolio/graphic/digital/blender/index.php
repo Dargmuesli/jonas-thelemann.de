@@ -274,52 +274,6 @@
                 </cite>
             </small>
         </blockquote>
-    </section>
-    <section id="videos" class="section scrollspy">
-        <h2>
-            Vi&shy;de&shy;os
-        </h2>
-        <div class="row">
-            <div class="col s12">
-                <div class="card">
-                    <div class="card-image">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/mIiY6aGefvI" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">
-                            Demoreel 2k16
-                        </span>
-                        <p>
-                            Demo-Reel zu Blenders Render-Engine Cycles.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12">
-                <div class="card">
-                    <div class="card-image">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">
-                            Big Buck Bunny
-                        </span>
-                        <p>
-                            Kurzfilm über einen Hasen mit großem Herz.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="websites" class="section scrollspy">
-        <h2>
-            Web&shy;sites
-        </h2>
         <div class="row">
             <div class="col s12 m6">
                 <div class="card blue-grey darken-1">
@@ -338,57 +292,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6">
-                <div class="card blue-grey darken-1">
-                    <div class="card-content white-text">
-                        <span class="card-title">
-                            blenderartists.org
-                        </span>
-                        <p>
-                            Das Forum für Blender-Experten und die, die es werden wollen.
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://www.blenderartists.org" rel="noopener" target="_blank">
-                            blenderartists.org
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m6">
-                <div class="card blue-grey darken-1">
-                    <div class="card-content white-text">
-                        <span class="card-title">
-                            blenderguru.com
-                        </span>
-                        <p>
-                            Detaillierte, englische Tutorials zum Schaffen von künstlichen Realitäten.
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://www.blenderguru.com/" rel="noopener" target="_blank">
-                            blenderguru.com
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
-    </section>
-    <section id="download" class="section scrollspy">
-        <h2>
-            Down&shy;load
-        </h2>
-        <p>
-            Hier können Sie alle Versionen von Blender für die gängigen Betriebssysteme kostenlos herunterladen!
-        </p>
-        <p>
-            <a class="waves-effect waves-light btn" href="https://www.blender.org/download/" rel="noopener" target="_blank" title="Download">
-                <i class="material-icons left">
-                    open_in_new
-                </i>
-                Download
-            </a>
-        </p>
     </section>';
 
     output_html($skeletonDescription, $skeletonContent, $skeletonFeatures);
