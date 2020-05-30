@@ -269,9 +269,11 @@
             </p>
             <small>
                 Jemand wichtiges auf
-                <cite title="https://www.blender.org/about/">
-                    https://www.blender.org/about/
-                </cite>
+                <a href="https://www.blender.org/about/" target="_blank">
+                    <cite>
+                        blender.org/about/
+                    </cite>
+                </a>
             </small>
         </blockquote>
         <div class="row">
