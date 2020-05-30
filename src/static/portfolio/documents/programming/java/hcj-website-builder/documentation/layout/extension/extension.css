@@ -1,6 +1,0 @@
-#docfrm{display:flex;}
-#docfrm iframe:nth-child(2){flex:1;width:80%;}
-#lftfrm{display:flex;flex-direction:column;float:left;width:20%;}
-#lftfrm iframe:nth-child(1){height:30%;width:100%;}
-#lftfrm iframe:nth-child(3){height:70%;width:100%;}
-*{border:0px;height:100%;margin:0px;padding:0px;}
